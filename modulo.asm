@@ -5,9 +5,7 @@
 
 .text
 Modulo:
-	# inizializzo i registri a 0
-	mul $t0, $t0, $zero
-	mul $t1, $t1, $zero
+	# inizializzo i registro $t2 a 0
 	mul $t2, $t2, $zero
 	
 	# imposto il numeratore in $t0

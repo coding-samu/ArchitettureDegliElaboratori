@@ -1,7 +1,10 @@
+.globl Modulo
+
 .data
 	
 
 .text
+Modulo:
 	# inizializzo i registri a 0
 	mul $t0, $t0, $zero
 	mul $t1, $t1, $zero

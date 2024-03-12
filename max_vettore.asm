@@ -18,7 +18,6 @@
 			addi $t2,$t2,1
 			j for
 	
-	
 	endFor:
 		li $v0,1
 		add $a0, $zero, $t0
